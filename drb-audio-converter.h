@@ -1,4 +1,4 @@
-// Dr. Baloney's Audio Converter
+// Dr. Bafflegab's Audio Converter
 //
 // Lightweight, open-source (CC0) C library designed for real-time sample rate
 // conversion of audio streams. It is fast, efficient, and dependency-free,

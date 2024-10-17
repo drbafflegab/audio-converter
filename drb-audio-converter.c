@@ -59,7 +59,7 @@ static inline int max (int const x, int const y) { return x > y ? x : y; }
 
 typedef long long Ticks;
 
-enum { tick_rate = 141120000LL }; // Can be computed from 2^9 * 3^2 * 5^4 * 7^2.
+enum { tick_rate = 282240000LL }; // Computed from '2^10 * 3^2 * 5^4 * 7^2'.
 
 _Static_assert(tick_rate % drb_audio_converter_sampling_rate_8000 == 0, "");
 _Static_assert(tick_rate % drb_audio_converter_sampling_rate_11025 == 0, "");
@@ -1346,9 +1346,9 @@ RESAMPLER_SINC_PUSH_IMPL( 8, linear) // => `resampler_sinc_push_8p_linear`
 RESAMPLER_SINC_PUSH_IMPL(16, linear) // => `resampler_sinc_push_16p_linear`
 RESAMPLER_SINC_PUSH_IMPL(24, linear) // => `resampler_sinc_push_24p_linear`
 RESAMPLER_SINC_PUSH_IMPL(32, linear) // => `resampler_sinc_push_32p_linear`
-RESAMPLER_SINC_PUSH_IMPL( 8, cubic) // => `resampler_sinc_push_8p_cubic`
+RESAMPLER_SINC_PUSH_IMPL( 8, cubic ) // => `resampler_sinc_push_8p_cubic`
 RESAMPLER_SINC_PUSH_IMPL(16, cubic ) // => `resampler_sinc_push_16p_cubic`
-RESAMPLER_SINC_PUSH_IMPL(24, cubic) // => `resampler_sinc_push_24p_cubic`
+RESAMPLER_SINC_PUSH_IMPL(24, cubic ) // => `resampler_sinc_push_24p_cubic`
 RESAMPLER_SINC_PUSH_IMPL(32, cubic ) // => `resampler_sinc_push_32p_cubic`
 
 #define RESAMPLER_SINC_PULL_IMPL(KERNEL_SIZE, INTERPOLATION)                   \

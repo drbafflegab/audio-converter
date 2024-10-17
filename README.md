@@ -1,6 +1,6 @@
-# Dr. Baloney's Audio Converter
+# Dr. Bafflegab's Audio Converter
 
-*Dr. Baloney's Audio Converter* is a lightweight, open-source ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)) C library for real-time [sample rate conversion](https://en.wikipedia.org/wiki/Sample-rate_conversion) of audio streams, designed to be fast, easy to use, and dependency-free, making it ideal for use in embedded systems or performance-critical applications.
+*Dr. Bafflegab's Audio Converter* is a lightweight, open-source ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)) C library for real-time [sample rate conversion](https://en.wikipedia.org/wiki/Sample-rate_conversion) of audio streams, designed to be fast, easy to use, and dependency-free, making it ideal for use in embedded systems or performance-critical applications.
 
 ## Features
 
@@ -167,6 +167,16 @@ More details coming soon.
 More details coming soon.
 
 ## Changelog
+
+*Version 0.1.1*:
+
+- Updated `README.md`.
+- Changed pseudonym from `Baloney` to `Bafflegab`.
+- Doubled the `tick_rate` constant, so it is divisable by even more sampling rates.
+
+*Version 0.1.0*:
+
+- Initial version.
 
 ## License
 

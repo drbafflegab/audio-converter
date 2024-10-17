@@ -1,8 +1,8 @@
-// Example: Pulling Audio Frames Through Dr. Baloney's Audio Converter.
+// Example: Pulling Audio Frames Through Dr. Bafflegab's Audio Converter.
 //
-// This example demonstrates how to use Dr. Baloney's Audio Converter library to
-// convert audio from a source sample rate at 44.1 kHz to a target sample rate
-// at 48 kHz using the pull workflow.
+// This example demonstrates how to use Dr. Bafflegab's Audio Converter library
+// to convert audio from a source sample rate at 44.1 kHz to a target sample
+// rate at 48 kHz using the pull workflow.
 //
 // In this workflow, audio frames are requested by the converter from a
 // producer callback (`produce_frames`) and are subsequently resampled.

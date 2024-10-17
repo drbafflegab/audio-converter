@@ -1,8 +1,8 @@
-// Example: Pushing Audio Frames Through Dr. Baloney's Audio Converter
+// Example: Pushing Audio Frames Through Dr. Bafflegab's Audio Converter
 //
-// This example demonstrates how to use Dr. Baloney's Audio Converter library to
-// convert audio from a source sample rate at 44.1 kHz to a target sample rate
-// at 48 kHz using the push workflow.
+// This example demonstrates how to use Dr. Bafflegab's Audio Converter library
+// to convert audio from a source sample rate at 44.1 kHz to a target sample
+// rate at 48 kHz using the push workflow.
 //
 // In this workflow, audio frames are pushed into the converter, and the output
 // is consumed via a callback function (`consume_frames`), which receives the
