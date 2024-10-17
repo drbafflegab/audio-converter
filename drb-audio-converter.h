@@ -26,7 +26,7 @@ static struct
 {
     short major, minor, patch;
 }
-const drb_audio_converter_version = { 0, 1, 0 };
+const drb_audio_converter_version = { 0, 1, 1 };
 
 // Supported sampling rates.
 enum
